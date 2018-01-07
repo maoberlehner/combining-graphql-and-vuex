@@ -1,0 +1,14 @@
+[
+  {
+    "id": "1",
+    "title": "The Lord of the Rings",
+    "author": "J. R. R. Tolkien",
+    "description": "The Lord of the Rings is an epic high fantasy novel written by English author and scholar J. R. R. Tolkien."
+  },
+  {
+    "id": "2",
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "description": "The Great Gatsby is a 1925 novel written by American author F. Scott Fitzgerald that follows a cast of characters living in the fictional town of West Egg on prosperous Long Island in the summer of 1922."
+  }
+]
