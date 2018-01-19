@@ -1,8 +1,10 @@
 <template>
   <div id="app">
     <h2>The one book</h2>
-    <strong>{{ book.title }}</strong> by {{ book.author }}
-    <p>{{ book.description }}</p>
+    <template v-if="book">
+      <strong>{{ book.title }}</strong> by {{ book.author }}
+      <p>{{ book.description }}</p>
+    </template>
 
     <h2>All the books</h2>
     <ul v-for="book in bookList" :key="book.id">
